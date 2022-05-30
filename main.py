@@ -44,7 +44,7 @@ PROPORTIONAL_GAIN = 1.2
 
 
 while True:
-    left_motor.reset_angle()
-    left_motor.run_angle(500, 5000)
-    left_motor.run_angle(500, -5000)
+   
+    left_motor.run_angle(1000, 5000)
+    left_motor.run_angle(1000, -5000)
     
