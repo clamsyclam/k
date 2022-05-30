@@ -43,5 +43,7 @@ PROPORTIONAL_GAIN = 1.2
 
 
 
-# Start following the line endlessly.
-left_motor.run_angle(100, 1000)
+while True:
+    left_motor.run_angle(500, 1000)
+    left_motor.run_angle(500, -1000)
+    
