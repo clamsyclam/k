@@ -17,7 +17,7 @@ from pybricks.tools import wait
 from pybricks.robotics import DriveBase
 
 # Initialize the motors.
-left_motor = Motor(Port.B)
+left_motor = Motor(Port.C)
 
 
 # Initialize the color sensor.
