@@ -24,7 +24,6 @@ left_motor = Motor(Port.C)
 line_sensor = ColorSensor(Port.S3)
 
 # Initialize the drive base.
-robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 
 # Calculate the light threshold. Choose values based on your measurements.
 BLACK = 9
